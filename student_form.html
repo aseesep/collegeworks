@@ -1,0 +1,65 @@
+<html>
+<head>
+  <title>student form</title>
+  <meta charset='utf-8'>
+  <style>
+    .address{
+      position: relative;
+      left:11px;
+    }
+
+    .gender{
+      position:relative;
+      left: 15px;
+    }
+
+    .Qualification{
+      position: relative;
+      right: 10px;
+    }
+  </style>
+</head>
+
+<body style='text-align:center;' topmargin=100px bgcolor=#89B5AF>
+  <h1 style='font-family:cursive;font-size:50px'>Student's Form</h1>
+  <form>
+    <label>Name of Student :&nbsp;</label><input type='text'><br><br>
+    <label style='position:relative; bottom:30px;' class='address'>Address :&nbsp;</label><textarea class='address' rows=2 cols=20></textarea><br><br>
+    <label class=gender>Gender :&nbsp;&nbsp;&nbsp;</label><input  type=radio name=gender>male<input style='margin-left:20px;' type=radio name=gender>female<br><br>
+    <label class=Qualification>Qualification :&nbsp;</label>
+    <select class=Qualification>
+      <option>select</option>
+      <optgroup label='high school'>
+        <option>SSLC</option>
+      </optgroup>
+      <optgroup label='higher secondary'>
+        <option>Science</option>
+        <option>Computer Science</option>
+        <option>Commerce</option>
+        <option>Psychology</option>
+      </optgroup>
+      <optgroup label='degree'>
+        <option>Computer Science</option>
+        <option>Chemistry</option>
+        <option>Physics</option>
+        <option>Micro Biology</option>
+        <option>BBA</option>
+        <option>BCA</option>
+      </optgroup>
+      <optgroup label="Master's degree">
+        <option>Computer Science</option>
+        <option>Chemistry</option>
+        <option>Physics</option>
+        <option>Micro Biology</option>
+        <option>BBA</option>
+        <option>BCA</option>
+      </optgroup>
+    </select><br><br>
+    <label>Languages known :&nbsp;</label><input type=checkbox><label>English</label>
+    <input style='margin-left:20px;' type=checkbox><label>French</label>
+    <input style='margin-left:20px;' type=checkbox><label>Arabic</label>
+    <input style='margin-left:20px;' type=checkbox><label>Malayalam</label>
+    <input style='margin-left:20px;' type=checkbox><label>Samskrit</label>
+    <input style='margin-left:20px;' type=checkbox><label>Hindi</label><br><br>
+
+    <input type='submit' value='submit'>
